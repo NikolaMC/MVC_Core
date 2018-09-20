@@ -1,0 +1,17 @@
+﻿@model List<Employee>
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<h2>Hitta oss</h2>
+<br />
+<img src="~/images/karta.png" />
+<br />
+<br />
+
+<ul>
+    @foreach (var employee in Model)
+    {
+        <li>@employee.Name<br />Phone number: @employee.PhoneNumber</li>
+    }
+</ul>
