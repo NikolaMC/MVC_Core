@@ -2,28 +2,54 @@
     ViewData["Title"] = "Våra rekommendationer";
 }
 
-<h1>Restauranger i Värnamo</h1>
-<h2>@ViewData["Message"]</h2>
-<br />
-<p><b>DAGENS LUNCH</b></p>
-<br />
-<p>Våran egna Madame Brasserie & Cafe<br />Jönköpingsvägen 15<br />Tel. 0370-61 55 80<br />Husmanskost</p>
-<br />
-<p>Rosegarden<br />Storgatan 22<br />Tel. 0370185 50<br />Asiatisk buffe</p>
-<br />
-<p>Nankoku Sushi Bar<br />Pilgatan 1A<br />Tel. 0370-30 10 88<br />Asiatisk och sushi restaurang</p>
-<br />
-<p>Laga Gyllen<br />Pilgatan 7<br />Tel. 0370-180 95<br />Buffe, Husmanskost</p>
-<br />
-<p>Cheers Sportbar<br />Storgatsbacken 12<br />Tel. 072-243 37 71<br />Husmanskost</p>
-<br />
-<p>Restaurang Kebabshi<br />Storgatsbacken 7B<br />Tel. 0370-108 88<br />Snabbmat som pizza, kebab etc</p>
-<br />
-<h3>Mysiga restauranger</h3>
-<p>Pinchos<br />Järnvägsgatan 3<br />Tel. 0370-30 56 50<br />Tapas</p>
-<br />
-<p>TK Hotpot & BBQ<br />Storgatsbacken 4<br />Tel. 076-283 56 65<br />Kinesiskt, hotpot</p>
-<br />
-<p>Tapasmarket<br />Storgatsbacken 6B<br />Tel. 0370-190 20<br />Diverse tapasrätter</p>
-<br />
-<p>Harrys<br />Storgatsbacken 19<br />Tel. 0370-498 00<br />Pubmeny</p>
+<div class="container">
+    <h1 class="text-center">Restauranger i Värnamo</h1>
+    <br />
+    <p class="text-center"><b>DAGENS LUNCH</b></p>
+    <div class="flex-container">
+        <div class="card mx-2">
+            <p>Våran egna Madame Brasserie & Cafe<br />Jönköpingsvägen 15<br />Tel. 0370-61 55 80<br />Husmanskost</p>
+        </div>
+
+        <div class="card mx-2">
+            <p>Rosegarden<br />Storgatan 22<br />Tel. 0370185 50<br />Asiatisk buffe</p>
+        </div>
+
+        <div class="card mx-2">
+            <p>Nankoku Sushi Bar<br />Pilgatan 1A<br />Tel. 0370-30 10 88<br />Asiatisk och sushi restaurang</p>
+        </div>
+
+        <div class="card mx-2">
+            <p>Laga Gyllen<br />Pilgatan 7<br />Tel. 0370-180 95<br />Buffe, Husmanskost</p>
+        </div>
+
+        <div class="card mx-2">
+            <p>Cheers Sportbar<br />Storgatsbacken 12<br />Tel. 072-243 37 71<br />Husmanskost</p>
+        </div>
+
+        <div class="card mx-2">
+            <p>Restaurang Kebabshi<br />Storgatsbacken 7B<br />Tel. 0370-108 88<br />Snabbmat som pizza, kebab etc</p>
+        </div>
+
+    </div>
+
+    <h3 class="text-center"">Mysiga restauranger</h3>
+
+    <div class="flex-container">
+        <div class="card col-md-8 mx-2">
+            <p>Pinchos<br />Järnvägsgatan 3<br />Tel. 0370-30 56 50<br />Tapas</p>
+        </div>
+
+        <div class="card col-md-8 mx-2">
+            <p>TK Hotpot & BBQ<br />Storgatsbacken 4<br />Tel. 076-283 56 65<br />Kinesiskt, hotpot</p>
+        </div>
+
+        <div class="card col-md-8 mx-2">
+            <p>Tapasmarket<br />Storgatsbacken 6B<br />Tel. 0370-190 20<br />Diverse tapasrätter</p>
+        </div>
+
+        <div class="card col-md-8 mx-2">
+            <p>Harrys<br />Storgatsbacken 19<br />Tel. 0370-498 00<br />Pubmeny</p>
+        </div>
+    </div> <!-- flex-container end -->
+</div> <!-- container end -->
