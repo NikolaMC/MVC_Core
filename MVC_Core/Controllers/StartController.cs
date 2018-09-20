@@ -19,28 +19,23 @@ namespace MVC_Core.Controllers
             var employeeList = new List<Employee>();
 
             var employee = new Employee();
-            employee.Name = "Anders Andersson";
+            employee.Name = "August Sandell";
             employee.PhoneNumber = "1";
             employeeList.Add(employee);
 
             employee = new Employee();
-            employee.Name = "Erik Andersson";
+            employee.Name = "Alyssa Phung";
             employee.PhoneNumber = "2";
             employeeList.Add(employee);
 
             employee = new Employee();
-            employee.Name = "David Andersson";
+            employee.Name = "Nikola Maljenovic";
             employee.PhoneNumber = "3";
             employeeList.Add(employee);
 
             employee = new Employee();
-            employee.Name = "Carl Andersson";
+            employee.Name = "Anders Kanth";
             employee.PhoneNumber = "4";
-            employeeList.Add(employee);
-
-            employee = new Employee();
-            employee.Name = "Bengt Andersson";
-            employee.PhoneNumber = "5";
             employeeList.Add(employee);
 
             return View(employeeList);
