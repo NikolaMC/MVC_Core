@@ -43,8 +43,6 @@ namespace MVC_Core.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Blah blah blah";
-
             return View();
         }
     }

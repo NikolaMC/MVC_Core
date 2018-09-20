@@ -39,3 +39,31 @@ body {
 .nav li a, .navbar-header a {
     transition: color .25s;
 }
+
+.img-responsive {
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.card, .card1 {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    width: 25rem;
+    margin: auto;
+}
+
+.card1 {
+    width: 20%;
+}
+
+.mx-2 {
+    margin: 1rem 3rem;
+}
