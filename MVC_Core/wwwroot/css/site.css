@@ -67,3 +67,7 @@ body {
 .mx-2 {
     margin: 1rem 3rem;
 }
+
+#karta {
+    width: 35%;
+}
