@@ -44,12 +44,6 @@ body {
     margin: auto;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-}
-
 .card, .card1 {
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -57,15 +51,20 @@ body {
 
 .card {
     width: 25rem;
-    margin: auto;
 }
 
 .card1 {
-    width: 20%;
+    width: 20rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mx-2 {
-    margin: 1rem 3rem;
+    margin: 1rem 2rem;
 }
 
 #karta {
