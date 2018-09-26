@@ -3,15 +3,21 @@
     ViewData["Title"] = "Contact";
 }
 
-<h2 class="text-center">Hitta oss</h2>
+<h1>Hitta till oss</h1>
+<div>
+    <h2>Karta till Campus</h2>
+    <br />
+    <img src="~/images/karta.png" id="karta" />
+    <br />
+</div>
 <br />
-<img src="~/images/karta.png" class="img-responsive" />
-<br />
-<br />
-
-<ul>
-    @foreach (var employee in Model)
-    {
-        <li>@employee.Name</li>
-    }
-</ul>
+<div>
+    <h2>Kontaktuppgifter</h2>
+    <!--Fast bara namn ;)-->
+    <ul>
+        @foreach (var employee in Model)
+        {
+            <li>@employee.Name</li>
+        }
+    </ul>
+</div>

@@ -66,3 +66,25 @@ body {
 .mx-2 {
     margin: 1rem 2rem;
 }
+
+#karta {
+    width: 35%;
+}
+
+@media only screen and (max-width: 1199px) {
+    #karta {
+        min-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #karta {
+        min-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #karta {
+        min-width: 100%;
+    }
+}
